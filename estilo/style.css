@@ -42,6 +42,7 @@ header>h1 {
 }
 
 
+
 nav {
     padding: 10px;
     text-align: center;
@@ -82,6 +83,12 @@ nav a:hover {
     font-size: 1.2em;
 }
 
+.intro strong {
+    color: var(--cor-5);
+    font-weight: bold;
+    text-shadow: #f7f7f7 1px 1px 0px;
+}
+
 .imagem-principal img {
     display: block;
     margin: 20px auto;
@@ -111,10 +118,13 @@ main {
 }
 
 main h2 {
-    font-family: var(--fonte-destaque);
+    font-family: var(--fonte-padrão);
     text-align: center;
+    font-size: 1.3em;
+    font-weight: bolder;
     margin-bottom: 20px;
     color: var(--cor-5);
+    text-decoration: solid var(--cor-1) underline;
 }
 
 main p {
@@ -146,6 +156,13 @@ main img:hover {
     transition: transform 0.3s ease;
 }
 
+main strong {
+    color: var(--cor-1);
+    font-weight: bold;
+    font-family: var(--fonte-destaque);
+    text-shadow: #2C3F59 1px 1px 0px;
+}
+
 div {
     min-width: 300px;
     max-width: 1000px;
@@ -169,16 +186,25 @@ div img {
 }
 
 div h2 {
-    font-family: var(--fonte-destaque);
+    font-family: var(--fonte-padrão);
     margin-bottom: 20px;
+    font-size: 2em;
+    font-weight: bolder;
     color: var(--cor-5);
+    text-decoration: underline var(--cor-1);
+}
+
+div strong {
+    color: var(--cor-1);
+    font-weight: bold;
+    font-family: var(--fonte-destaque);
+    text-shadow: #2C3F59 1px 1px 0px;
 }
 
 abbr {
     text-decoration: none;
     font-weight: bold;
     font-style: italic;
-    border-bottom: 1.3px dashed var(--cor-2);
     color: var(--cor-5);
 }
 
