@@ -15,6 +15,7 @@
     --cor-5: #2C3F59;
 
     --fonte-padrão: Arial, Helvetica, sans-serif;
+    --fonte-padrão-2: 'Trebuchet MS', Helvetica, sans-serif;
     --fonte-destaque: 'Ninja Naruto', cursive;
 
 }
@@ -59,8 +60,6 @@ nav a {
 nav a:hover {
     color: var(--cor-1);
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.267);
-    background-color: var(--cor-3);
-    padding: 5px;
     border-radius: 5px;
 }
 
@@ -103,7 +102,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    font-family: var(--fonte-padrão);
+    font-family: var(--fonte-padrão-2);
 }
 
 main {
