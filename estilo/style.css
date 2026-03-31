@@ -120,11 +120,11 @@ main {
 main h2 {
     font-family: var(--fonte-padrão);
     text-align: center;
-    font-size: 1.3em;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+    font-size: 1.8em;
     font-weight: bolder;
     margin-bottom: 20px;
     color: var(--cor-5);
-    text-decoration: solid var(--cor-1) underline;
 }
 
 main p {
@@ -205,22 +205,31 @@ abbr {
     text-decoration: none;
     font-weight: bold;
     font-style: italic;
+    font-size: 1.2em;
     color: var(--cor-5);
 }
 
-abbr:hover {
-    color: var(--cor-1);
-    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.267);
-    background-color: var(--cor-3);
-    padding: 2px;
-    border-radius: 5px;
-}
 
 .conclusao p {
     text-align: justify;
     text-indent: 30px;
     line-height: 2em;
     font-size: larger;
+}
+
+.buttom {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 12px;
+    background-color: var(--cor-2);
+    color: var(--cor-0);
+    text-decoration: none;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    display: inline-block;
+    cursor: pointer;
 }
 
 footer {
