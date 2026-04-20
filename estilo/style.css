@@ -208,18 +208,6 @@ abbr {
     color: var(--cor-5);
 }
 
-.teste {
-    background-color: var(--cor-2);
-    padding: 20px;
-    border-radius: 10px;
-    margin-top: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
-}
-
 .conclusao p {
     text-align: justify;
     text-indent: 30px;
