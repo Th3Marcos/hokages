@@ -143,7 +143,7 @@ main img {
     object-fit: contain;
     margin-top: 20px;
     margin-bottom: 20px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.699)), url(../imagens/folha.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.562)), url(../imagens/folha.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 5px;
@@ -161,6 +161,7 @@ main strong {
     font-family: var(--fonte-destaque);
     text-shadow: #2C3F59 1px 1px 0px;
 }
+
 
 div {
     min-width: 300px;
@@ -236,3 +237,4 @@ footer {
     background-color: var(--cor-4);
     color: var(--cor-0);
 }
+
